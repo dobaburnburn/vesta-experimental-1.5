@@ -1,5 +1,5 @@
 'use client';
-
+import { Analytics } from "@vercel/analytics/react"
 import type { Attachment, Message } from 'ai';
 import { useChat } from 'ai/react';
 import { AnimatePresence } from 'framer-motion';
